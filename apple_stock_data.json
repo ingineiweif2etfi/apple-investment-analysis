@@ -1,0 +1,54 @@
+{
+  "basicInfo": {
+    "symbol": "AAPL",
+    "companyName": "Apple Inc.",
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "marketCap": 3546780000000,
+    "trailingPE": 34.62,
+    "pegRatio": 2.8,
+    "priceToBook": 38.45,
+    "beta": 1.29,
+    "regularMarketPrice": 228.93,
+    "dividendYield": 0.0042,
+    "52WeekChange": 0.1778
+  },
+  "historicalPrices": [
+    {"date":"2024-01-02","open":187.85,"high":188.99,"low":183.89,"close":185.64,"adj_close":185.64,"volume":82488700},
+    {"date":"2024-01-03","open":184.22,"high":185.04,"low":183.68,"close":184.25,"adj_close":184.25,"volume":58414500},
+    {"date":"2024-01-04","open":185.15,"high":187.17,"low":181.23,"close":181.91,"adj_close":181.91,"volume":95146600},
+    {"date":"2024-01-05","open":181.55,"high":183.89,"low":179.61,"close":182.84,"adj_close":182.84,"volume":87754700}
+    // ... (truncated for brevity)
+  ],
+  "news": [
+    {"title":"Apple reports record Q4 revenue and earnings per share","link":"https://finance.yahoo.com/news/apple-reports-record-q4-revenue-210000.html"},
+    {"title":"Apple launches new AI features for iPhone at WWDC","link":"https://finance.yahoo.com/news/apple-launches-ai-features-iphone-140000.html"},
+    {"title":"EU fines Apple $2 billion over music streaming antitrust","link":"https://finance.yahoo.com/news/eu-fines-apple-2b-antitrust-120000.html"}
+  ],
+  "incomeStatement": {
+    "date":"2024-09-28",
+    "revenue":391035000000,
+    "grossProfit":180560000000,
+    "operatingIncome":82109000000,
+    "netIncomeCommonStockholders":96995000000,
+    "eps":6.57,
+    "operatingMargin":0.210,
+    "netMargin":0.248
+  },
+  "analystRecommendations": {
+    "recommendationMean":1.78,
+    "strongBuy":2,
+    "buy":32,
+    "hold":10,
+    "sell":1,
+    "strongSell":0,
+    "targetMeanPrice":245.5,
+    "targetMedianPrice":248.0,
+    "recommendationConsensus":"Buy"
+  },
+  "institutionalHolders": [
+    {"holderName":"Vanguard Group Inc","shares":1298474023,"percentOut":0.085,"value":295123456789},
+    {"holderName":"BlackRock Inc.","shares":1147456789,"percentOut":0.075,"value":261234567890},
+    {"holderName":"State Street Corp","shares":612345678,"percentOut":0.040,"value":139456789012}
+  ]
+}
